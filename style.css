@@ -1,0 +1,52 @@
+.dc { grid-area: dc; }
+.jw { grid-area: jw; }
+.jh { grid-area: jh; }
+.pa { grid-area: pa; }
+.kw { grid-area: kw; }
+
+body {
+  background-color: hsl(210, 46%, 95%);
+}
+
+.grid-container {
+  background-color: hsl(210, 46%, 95%);
+  display: grid;
+  grid-template-areas:
+  'dc dc jw kw'
+  'jh pa pa kw';
+  gap: 20px;
+  padding: 10px;
+  margin: 100px 240px 100px 240px;
+}
+
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px;
+}
+
+.dc {
+  height: 200px;
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
+}
+
+.jw {
+  height: 200px;
+  background-color: hsl(217, 19%, 35%);
+}
+
+.jh {
+  height: 200px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.pa {
+  height: 200px;
+  background-color: hsl(219, 29%, 14%);
+}
+
+.kw {
+  background-color: hsl(0, 0%, 100%);
+}
+
