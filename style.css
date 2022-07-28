@@ -20,6 +20,7 @@ body {
 .grid-container > div {
   border-radius: 15px;
   padding: 20px 20px 20px 20px;
+  box-shadow: 3px 0px 25px grey;
 }
 
 .dc {
@@ -137,6 +138,7 @@ h4 {
     width: 100%;
     height: fit-content;
     margin-bottom: 5%;
+    box-shadow: 10px 10px 25px hsl(210, 46%, 95%);
   }
 
 }
