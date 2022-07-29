@@ -17,7 +17,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/CodingLife1024/testimonials-grid-section)
-- Live Site URL: [Live Site URL](https://your-live-site-url.com)
+- Live Site URL: [Live Site URL](https://codinglife1024.github.io/testimonials-grid-section/)
 
 ### Built with
 
