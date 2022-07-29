@@ -39,8 +39,7 @@ body {
 .jw {
   display: inline-block;
   height: 230px;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 170px;
   background-color: hsl(217, 19%, 35%);
   grid-area: 1/ 3/ span 1/ span 1;
   color: hsl(0, 0%, 100%);
@@ -48,16 +47,15 @@ body {
 
 .jh {
   display: inline-block;
-  height: 230px;
-  width: -moz-fit-content;
-  width: fit-content;
+  height: 210px;
+  width: 170px;
   background-color: hsl(0, 0%, 100%);
   grid-area: 2/ 1/ span 1/ span 1;
 }
 
 .pa {
   display: inline-block;
-  height: 230px;
+  height: 210px;
   width: -moz-fit-content;
   width: fit-content;
   background-color: hsl(219, 29%, 14%);
@@ -67,7 +65,8 @@ body {
 
 .kw {
   width: -moz-fit-content;
-  width: fit-content;
+  height: 500px;
+  width: 200px;
   background-color: hsl(0, 0%, 100%);
   grid-area: 1/ 4/ span 2/ span 1;
 }
@@ -95,7 +94,6 @@ body {
   align-items: left;
   justify-content: left;
   flex-flow: column;
-  height: 100%;
   line-height: 0%;
 }
 
@@ -115,6 +113,8 @@ h2 {
 
 h3 {
   font-size: 17px;
+  opacity: 1;
+  font-weight: 300;
 }
 
 h4 {
